@@ -8,7 +8,7 @@ UPDATE Covid_19.dbo.Covid_19_Deaths
 SET continent=NULL WHERE continent=''
 
 
--- Total Cases vs Total Deaths in México with Death Percentage per date.
+-- Total Cases vs Total Deaths in MÃ©xico with Death Percentage per date.
 Select location,
        date,
        total_cases,
